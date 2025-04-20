@@ -35,7 +35,7 @@ const Banner = () => {
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  Lorem, ipsum dolor.
+                  Welcome to Our Restaurant.
                 </h1>
                 <p className="text-sm text-gray-500 tracking-wide leading-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -60,8 +60,8 @@ const Banner = () => {
                   </div>
                 </div>
                 <div>
-                  <button className="bg-gradient-to-r from-primary to-secondary text-white py-2 px-4 rounded-full shadow-xl hover:shadow-md">
-                    Explore Menu
+                  <button className="bg-gradient-to-r bg-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full" style={{opacity: "0.8"}}>
+                Explore Menu
                   </button>
                 </div>
               </div>

@@ -48,7 +48,7 @@ const Hero = () => {
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                 Welcome{" "}
-                <span class="bg-clip-text text-transparent bg-gradient-to-b from-third to-secondary">
+                <span className="bg-clip-text text-transparent bg-gradient-to-b from-third to-secondary">
                   Foodie
                 </span>{" "}
                 Zone
@@ -56,11 +56,11 @@ const Hero = () => {
               <p className="text-sm ">
                 "Medicine Hat", where healthy meets delicious.<br />Your taste buds just got an upgrade!!
               </p>
-              <div>
+              {/* <div>
                 <button className="bg-gradient-to-r bg-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full" style={{opacity: "0.8"}}>
                 Explore Menu
                 </button>
-              </div>
+              </div> */}
             </div>
             {/* Image section */}
             <div className="min-h-[450px] sm:min-h-[450px] flex justify-center items-center relative order-1 sm:order-2 ">

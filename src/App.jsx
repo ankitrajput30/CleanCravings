@@ -9,7 +9,8 @@ import Testimonial from "./components/Testimonial/Testimonial.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Gallery from "./components/Services/Gallery.jsx";
+import Gallery from "./components/Gallery/Gallery.jsx";
+import Menu from "./components/Services/Menu.jsx";
 
 const App = () => {
   React.useEffect(() => {
@@ -26,9 +27,15 @@ const App = () => {
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <Navbar />
       <Hero />
-      <Services />
-      <Gallery />
+      <hr className="border-t border-yellow-600 my-4" />
       <Banner />
+      <hr className="border-t border-yellow-600 my-4" />
+      <Menu />
+      {/* <hr className="border-t border-yellow-600 my-4" /> */}
+      <Services />
+      <hr className="border-t border-yellow-600 my-4" />
+      <Gallery />
+      <hr className="border-t border-yellow-600 my-4" />
       <Testimonial />
       <Footer />
     </div>

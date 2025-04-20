@@ -41,13 +41,12 @@ const Testimonial = () => {
       <div data-aos="fade-up" data-aos-duration="300" className="py-10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+            <p className="text-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
               What our customers say
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+              Happy Customers, Kind words that make our day, every day!!
             </p>
           </div>
           <div
@@ -58,17 +57,17 @@ const Testimonial = () => {
             <Slider {...settings}>
               {testimonialData.map((data) => {
                 return (
-                  <div className="my-6">
+                  <div className="my-1">
                     <div
                       key={data.id}
-                      className="flex flex-col justify-center items-center gap-4 text-center   shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
+                      className="flex flex-col justify-center items-center gap-4 text-center shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
                     >
                       <img
                         className="rounded-full block mx-auto"
                         src={data.img}
                         alt=""
                       />
-                      <p className="text-gray-500 text-sm">{data.text}</p>
+                      <p className="text-sm">{data.text}</p>
                       <h1 className="text-xl font-bold">{data.name}</h1>
                       <p className="text-black/20 text-9xl font-serif absolute top-0 right-0">
                         ,,
