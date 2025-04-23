@@ -11,6 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Gallery from "./components/Gallery/Gallery.jsx";
 import Menu from "./components/Services/Menu.jsx";
+import ScrollToTop from "./components/Footer/ScrollToTop.jsx";
 
 const App = () => {
   React.useEffect(() => {
@@ -38,6 +39,7 @@ const App = () => {
       <hr className="border-t border-yellow-600 my-4" />
       <Testimonial />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
