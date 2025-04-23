@@ -2,7 +2,7 @@ import React from "react";
 
 const HoursOfOperation = () => {
   return (
-    <div className=" text-white max-w-sm mx-auto p-6 rounded-lg shadow-md text-center border">
+    <div className=" text-white max-w-sm mx-auto p-9 rounded-lg shadow-md text-center border">
       <h2 className="text-xl sm:text-2xl font-semibold text-white mb-6 border-b border-gray-700 pb-2">
         We're Open
       </h2>

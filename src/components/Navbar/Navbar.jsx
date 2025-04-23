@@ -29,7 +29,10 @@ const Navbar = () => {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="#services">About</a>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#gallery">Gallery</a>
         </li>
         <li>
           <a href="#footer">Contact</a>
@@ -60,17 +63,22 @@ const Navbar = () => {
           />
           <ul className="flex flex-col gap-6 text-white text-2xl">
             <li>
-              <a href="#home" onClick={() => setToggleMenu(false)}>
+              <a href="/" onClick={() => setToggleMenu(false)}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" onClick={() => setToggleMenu(false)}>
-                About
+              <a href="#menu" onClick={() => setToggleMenu(false)}>
+                Menu
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={() => setToggleMenu(false)}>
+              <a href="#gallery" onClick={() => setToggleMenu(false)}>
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#footer" onClick={() => setToggleMenu(false)}>
                 Contact
               </a>
             </li>
